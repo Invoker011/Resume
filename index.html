@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Basic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            display: inline-block; /* Allows the container to shrink to fit its content */
+            text-align: center;
+            position: relative;
+        }
+        .image-container {
+            margin-top: -10px; /* Move the image closer to the text below it */
+            margin-left: 160px; /* Move the image further to the right */
+        }
+        .container img {
+            width: 300px; /* Adjust size as needed */
+        }
+        .container p, .container a {
+            margin: 20px 0; /* Space between text elements */
+        }
+        a {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <div class="image-container">
+            <img src="my_photo.jpg" alt="My Photo">
+        </div>
+        <p>Click the link below to view my Resume:</p>
+        <a href="Atharva_Borkar_Resume.pdf" target="_blank">View My Resume</a>
+    </div>
+</body>
+</html>
